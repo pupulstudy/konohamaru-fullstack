@@ -1,0 +1,152 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #003047;
+}
+.container {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1 {
+    font-size: 54px;
+    margin-bottom: 1rem;
+}
+h3, h4, p {
+    margin-bottom: 1rem;
+}
+.text-center {
+    text-align: center;
+}
+.button {
+    background-color: #2c3243;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* Header */
+#header {
+    width: 100%;
+    background-color: #2c3243;
+}
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+#logo a {
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 16px;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+/* Intro */
+.intro {  
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.intro img {
+    padding: 15px 0;
+}
+
+/* Transportation */
+.transportation {
+    min-height: 413.5px;
+}
+.transportation .column-left {
+    width: 32%;
+    float: left;
+}
+.transportation .column-middle {
+    width: 32%;
+    float: left;
+    margin: 0 2%;
+}
+.transportation .column-right {
+    width: 32%;
+    float: right;
+}
+
+/* Card */
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.card img {
+    border-radius:  8px 8px 0 0;
+}
+.card-body {
+    padding: 15px;
+}
+.card .button {
+    width: 100%;
+}
+.card p {
+    text-align: justify
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    background-color: #2c3243;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+}
+#footer p {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
