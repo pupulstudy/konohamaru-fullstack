@@ -1,0 +1,53 @@
+1. 
+STORE resultanGaya to F
+STORE massaBenda to m
+STORE percepatanBenda to a
+
+SET m equal to 600
+SET a equal to 2
+SET F equal to m multiplies by a 
+PROCESS F calculation
+RETURN F calculation
+
+2.
+STORE tahunToMatch to any number
+STORE tahunKabisat without value
+
+IF tahunToMatch mod by 4 equal to 0
+AND tahunToMatch mod by 100 not equal to 0 THEN
+  SET tahunToMatch equal to tahunKabisat
+ELSE IF tahunToMatch mod by 4 equal to 0
+AND tahunToMatch mod by 100 equal to 0
+AND tahunToMatch mod by 400 equal to 0 THEN
+  SET tahunToMatch equal to tahunKabisat 
+ELSE tahunToMatch not equal to tahunKabisat
+END IF
+
+3.
+STORE pakaianToWash to 20
+STORE pakaianEnteredMachine to 0
+STORE startWashMachine without value
+
+WHILE pakaianEnteredMachine less than or equal to pakaianToWash 
+DO increment pakaianEnteredMachine
+  IF pakaianEnteredMachine equal to pakaianToWash THEN
+    RETURN pakaianEnteredMachine
+    DO startWashMachine
+  END IF
+END WHILE
+
+4.
+STORE totalSiswa to 40
+STORE kukuSiswa to random number between 0 to 1
+STORE cekKukuSiswa to 0
+
+WHILE cekKukuSiswa less than or equal to totalSiswa
+  DO increment cekKukuSiswa
+  IF kukuSiswa more than or equal to 0.5 THEN
+    SET kukuSiswa to 'Kuku Panjang'
+    DO 'Hukum Siswa'
+  ELSE
+    SET kukuSiswa to 'Kuku Tidak Panjang'
+    DO 'Puji Siswa'
+  END IF
+END WHILE
